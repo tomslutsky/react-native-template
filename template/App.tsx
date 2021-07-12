@@ -1,6 +1,6 @@
 import React from 'react';
 import {QueryClientProvider, QueryClient} from 'react-query';
-import Root from './lib/routes/root';
+import Root from './lib/screens/root';
 
 const queryClient = new QueryClient();
 function App() {
